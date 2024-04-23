@@ -1,138 +1,25 @@
 export default
 [
     {
-        "_id": "A101",
-        "title": "Data Analysis Report",
-        "course": "CS101",
-        "dueDate": "Sep 18, 2024",
-        "dueTime": "11:59pm",
+        "_id": "1",
+        "courseId": "CS101",
+        "title": "Introduction to Data Science Concepts",
+        "description": "A comprehensive quiz covering fundamental concepts in Data Science.",
+        "quizType": 1, // Assuming quizType 1 refers to a standard multiple choice type
+        "availableDate": "2023-01-11T00:00:00Z",
+        "dueDate": "2023-01-25T00:00:00Z",
+        "availableUntilDate": "2023-01-30T00:00:00Z",
         "points": 100,
-        "publish": true
-    },
-    {
-        "_id": "A102",
-        "title": "Statistical Inference Project",
-        "course": "CS101",
-        "dueDate": "Oct 2, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": true
-    },
-    {
-        "_id": "A103",
-        "title": "Machine Learning Algorithm Implementation",
-        "course": "CS101",
-        "dueDate": "Oct 12, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": true
-    },
-    {
-        "_id": "A104",
-        "title": "Predictive Modeling Challenge",
-        "course": "CS101",
-        "dueDate": "Oct 18, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": true
-    },
-    {
-        "_id": "A105",
-        "title": "Data Visualization Portfolio",
-        "course": "CS101",
-        "dueDate": "Oct 30, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": true
-    },
-    {
-        "_id": "A106",
-        "title": "Big Data Analytics Exercise",
-        "course": "CS101",
-        "dueDate": "Nov 10, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A107",
-        "title": "Neural Network Design Task",
-        "course": "CS101",
-        "dueDate": "Nov 19, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A108",
-        "title": "Time Series Forecasting Project",
-        "course": "CS101",
-        "dueDate": "Nov 28, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A109",
-        "title": "Natural Language Processing (NLP) Exam",
-        "course": "CS101",
-        "dueDate": "Dec 1, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A201",
-        "title": "Supervised Machine Learning Assignment",
-        "course": "CS102",
-        "dueDate": "Oct 18, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A202",
-        "title": "Unsupervised Machine Learning Assignment",
-        "course": "CS102",
-        "dueDate": "Oct 30, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A203",
-        "title": "Reinforcement Learning Assignment",
-        "course": "CS102",
-        "dueDate": "Nov 10, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A301",
-        "title": "Neural Network Basics Assignment",
-        "course": "CS103",
-        "dueDate": "Nov 19, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A302",
-        "title": "Convolutional Neural Network Assignment",
-        "course": "CS103",
-        "dueDate": "Nov 28, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
-    },
-    {
-        "_id": "A303",
-        "title": "RNNs and LSTMs Assignment",
-        "course": "CS103",
-        "dueDate": "Dec 1, 2024",
-        "dueTime": "11:59pm",
-        "points": 100,
-        "publish": false
+        "questionsCount": 10,
+        "isMultipleAvailableDates": false,
+        "isPublished": true,
+        "isShuffleAnswers": true,
+        "timeLimit": 1200, // 20 minutes in seconds
+        "isMultipleAttempts": false,
+        "showCorrectAnswersDate": "2023-02-01T00:00:00Z",
+        "isOneQuestionAtATime": false,
+        "isWebcamRequired": false,
+        "isLockQuestionsAfterAnswering": true
     }
+    
 ]
